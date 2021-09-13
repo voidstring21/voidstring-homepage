@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}
+#title{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    padding-bottom: 5px;
+}
+#main_title{
+    margin: 0;
+    padding-top: 20px;
+}
+#sub_title{
+    color: rgb(182, 178, 178);
+}
+.VS{
+    color: lime;
+}
+#nav_1{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    align-content: center;
+    grid-auto-flow: column;
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#head{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+#VoidString{
+    padding: 10px;
+    color: white;
+}
+#void{
+    color: lime;
+}
+#body_start{
+    background-color: rgb(216, 216, 216);
+    padding: 5px;
+    color: rgb(73, 73, 73);
+    padding-left: 8px;
+    font-size: 15px;
+}
+#paragraph{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#hello{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#bottom{
+    border-top: solid 1px gray;
+    padding: 30px;
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-auto-flow: column;
+    margin: 0;
+}
+#bottom_start{
+    margin: 0;
+}
+#c_void{
+    font-weight: bold;
+}
+#intro{
+    color: rgb(38, 196, 38);
+    text-decoration: underline;
+}
