@@ -28,7 +28,7 @@ body{
     font-weight: bold;
     color: white;
 }
-a{
+#nav_12{
     color: white;
     text-decoration: none;
 }
@@ -78,4 +78,39 @@ a{
 #intro{
     color: rgb(38, 196, 38);
     text-decoration: underline;
+}
+#select{
+    color: lime;
+}
+#intro_para{
+    padding-left: 15px;
+    display: none;
+}
+#intro_title{
+    text-align: center;
+}
+#intro_sub_title{
+    padding-left: 15px;
+    color: black;
+}
+#intro_para2{
+    display: none;
+    padding-left: 15px;
+}
+#intro_sub_title2{
+    padding-left: 15px;
+}
+#main_intro{
+    color: lime;
+}
+#intro_frist{
+    padding-bottom: 100px;
+}
+#intro_para3{
+    display: none;
+    color: red;
+    padding-left: 10px;
+}
+#intro_sub_title3{
+    padding-left: 10px;
 }
