@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(241, 241, 241);
+    background-color: white;
 }
 #title{
     text-align: center;
@@ -91,7 +91,7 @@ body{
 }
 #intro_sub_title{
     padding-left: 15px;
-    color: black;
+    
 }
 #intro_para2{
     display: none;

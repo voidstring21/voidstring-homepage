@@ -26,6 +26,17 @@
         <div id="body_start">
             VoidString
         </div>
+        <input id="night_day" type="button" value="야간모드" onclick="
+        if(document.querySelector('#night_day').value === '야간모드'){
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            document.querySelector('#night_day').value = '주간모드';
+        } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            document.querySelector('#night_day').value = '야간모드';
+        }
+        ">
         <div>
             <p id="paragraph">
                 <img src="hello.png" width="400px" id="main_logo" >
@@ -36,9 +47,7 @@
                 VoidString은 물금고등학교의 동아리입니다.
                 <br>
                 자세한 내용은 <a href="introduce.html" id="intro" id=>소개</a>를 참고해주세요.
-                <br>
-                <br>
-                <strong style="color:lime;">현재 메인 페이지, 소개 페이지 완성</strong>
+
             </p>
             
             </p>
