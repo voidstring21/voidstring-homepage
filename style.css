@@ -114,3 +114,8 @@ body{
 #intro_sub_title3{
     padding-left: 10px;
 }
+#night_day{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    font-weight: bold;
+}
