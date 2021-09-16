@@ -17,6 +17,10 @@ body{
 .VS{
     color: lime;
 }
+.oidting{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+}
 #nav_1{
     list-style: none;
     display: grid;
