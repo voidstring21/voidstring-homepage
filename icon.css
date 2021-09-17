@@ -45,7 +45,11 @@
     bottom: 50%;
     transform: translateY(50%) rotate(-45deg);
 }
-
+#menuicon:checked + label{
+    position: fixed;
+    right: 0;
+    padding-top: 2px;
+}
 .sidebar{
     width: 300px;
     height: 100%;
@@ -53,10 +57,28 @@
     position: fixed;
     top: 0;
     right: -300px;
-    border-left: solid 2px lime;
+    border-left: solid 2px green;
     transition: all .35s;
 }
 #menuicon:checked + label + div{
-    right: 0;
+    right: 0px;
     z-index: 0;
+    
+}
+
+
+
+#menuhead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: solid 1px lime;
+    padding-bottom: 5px;
+    border-top: solid 1px lime;
+}
+.menupara{
+    color: white;
+    font-weight: bold;
 }
